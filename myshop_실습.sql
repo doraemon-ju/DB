@@ -129,7 +129,7 @@ select employee_name, employee_id, gender, phone, hire_date, retire_date
 from employee 
 where retire_date is not null;
 
--- Q28) 2019-01-01 ~ 2019-01-07 기간 주문의 주문번호, 고객아이디, 사원번호, 주문일시, 소계, 배송비, 전체금액을 조회하세요..
+-- Q28) 2019-01-01 ~ 2019-01-07 기간 주문의 주문번호, 고객아이디, 사원번호, 주문일시, 소계, 배송비, 전체금액을 조회하세요.
 --      단, 고객아이디를 기준으로 오름차순 정렬해서 조회하세요.
 show tables;
 select * from order_header;
